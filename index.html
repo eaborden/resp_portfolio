@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bootstrap 101 Template</title>
+  <title>About Me</title>
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
+  <link rel ="stylesheet" type="text/css" href="index.css">
+<!-- <style>
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
 
+</style> -->
 </head>
 
 <body>
-  <!-- Start Nav -->
-  <div class = "container">
-  <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-    <a class="navbar-brand" href="#">
-      <img src="image/elsie.jpg" width="30" height="30" alt="logo">
-      Arroll Borden
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-5" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-list-5">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">About</a>
-        </li>
-      </ul>
+  <link href="index.css" rel="stylesheet">
+   <div class = "container">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+      <a class="navbar-brand" href="#">
+        <img src="image/elsie.jpg" width="30" height="30" alt="logo">
+        Arroll Borden
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-5" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-list-5">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     </div>
-  </nav>
-  </div>
+
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="page-header text-center">
+        <div class="page-header text-left">
           <h1>About Me</h1>
         </div>
-        <div class="row">
-          <div class="col-md-10">
-       <img src="image/Arroll.jpg" alt="Arroll in a tuxedo" style="width:170px;height:240px; padding: 10px;" align="left" />
-           
-       <p style="font-family:'Courier New'">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-              felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-              non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-              luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-              neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-              dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-              posuere sem congue a.</p>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12 bg-light">
+        <img src ="image/Arroll.jpg" class="rounded float-left" alt="Arroll in a tuxedo" width="190" height="260">
+         <!-- <div id="floated">--> 
+              <p>Opening a new chapter in my life by taking a leap into the world of coding and website design. The past 25 years have been a host trials
+              and tribulations of career paths.  I have worked in for profit and non-profit organization, dabled in consulting and was even a teacher for a while.  
+              The common theme that has run through most of my positions was geographic information system (GIS).  
+              The industry of GIS has changed so drastically over the past 10 years and rather than the software located on single desktop, it is an
+              enterprise wide offering to every industry.  Therefore, in order to continue to compete for positions utilizing GIS one must have many more
+              skills, including the one gained in this certificate program.
+              I grew up in Denver, Colorado and have a love for fishing and hunting.  And although I have lived on the East Coast as long I did in Colorado, I still
+              think of it as home.  Other hobbies include ice hockey and golf.
+              I have two daugthers, one enrolled at UMASS Amherst, and the other entering her senior year at Watkinson School.</p>
+            
+  </div>    
+  </div>
   </div>
 
   <!-- jQuery CDN -->
@@ -72,6 +80,7 @@
 
   <!-- Bootstrap JavaScript CDN -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
