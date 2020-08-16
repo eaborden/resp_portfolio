@@ -1,6 +1,6 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-PROJECT GOAL
+**PROJECT GOAL**
 
 Design a website with three pages:
 
@@ -8,7 +8,9 @@ About me page - index.html - https://eaborden.github.io/resp_portfolio/index.htm
 Portfolio Page - portfolio.html - https://eaborden.github.io/resp_portfolio/portfolio.html
 Contact page - contact.html - https://eaborden.github.io/resp_portfolio/contact.html
 
-REQUIRED ELEMENTS
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+**REQUIRED ELEMENTS**
 
 Use the bootstrap CSS framework to create mobile responsive portfolio.  All of the sites must meet the following criteria:
 
@@ -16,7 +18,7 @@ Use the bootstrap CSS framework to create mobile responsive portfolio.  All of t
 2. A reponsive layout
 3. Responsive images
 
-REQUIREMENTS
+**REQUIREMENTS**
 
 The following requirements have been met for this project:
 
@@ -38,7 +40,7 @@ The following requirements have been met for this project:
 
 * Must properly utilize Bootstrap components and grid system.
 
-SOURCES
+**SOURCES**
 
 www.github.com - Hosting repository and website
 
@@ -48,6 +50,6 @@ www.getbootstrap.com - code for the naviagtion bar and code necessary for develo
 
 https://validator.w3.org/nu/#file - Validation service used to valid the final HTML files
 
-SHORTCOMINGS
+**SHORTCOMINGS**
 
 The project was delivered late by 4 hours.  This could have been avoided by committing the code to the repository more frequesntly.  I had a page stop working at it took more time than expected to resolve the issue.  This could have been resolved sooner if I had more history in my repository.
