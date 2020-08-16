@@ -1,18 +1,14 @@
-<!-- Bootstrap Grid Demo -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <title>Bootstrap Demo</title>
-
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
 </head>
-
 <body>
+  <link href="contactform.css" rel="stylesheet">
   <div class = "container">
     <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
       <a class="navbar-brand" href="#">
@@ -40,18 +36,10 @@
    <!-- Creates the Overall Grid -->
   <div class="container">
    
+    <div class = "cf">
     <div class="row">
-        <div class="col-lg-12">
-          <p>what is up here</p>
-    </div>
-    <!-- one row -->
-    <div class="row">
-      <!-- First of three columns -->
-      <div class="col-lg-2 col-sm-1 col-0 bg-primary">
-      </div>
-
-      <!-- Second of two columns -->
-      <div class="col-lg-8 col-sm-10 col-12">
+ 
+      <div class="col-12">
          <h2>Contact</h2>
             <p>Thank you for contacting me.  I will get back to you as soon as I can.</p>
             <form>
@@ -60,30 +48,34 @@
                   <input type="name" class="form-control" id="name" placeholder="Name">
                 </div>
               <div class="form-group">
-                <label for="email">Email:</label>
+                <label for="email">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email">
               </div>
-              <div class="form-group">
-                  <label for="message">Leave a message:</label>
-
-                  <textarea id="message" name="message" rows="4" cols="100">
-                  
-                  </textarea>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Leave a message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                </div>
+                </form>
+                             
                 <div><input type="submit" value="Submit"></div>
-            </div>          
-
-    <!-- Second of third columns -->
-    <div class="col-lg-2 col-sm-1 col-0">
+        </div>
+        </div>   
+  </div>       
+    <div class = "container">    
+    <div class = "eghpf">
+    <div class ="row">
+    <div class="col-12">
+      <p>How to email me directly, a peek at my repositories, and my work product (coming soon)</p>
       <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Email:</strong> <a href="#">arroll.borden@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">https://github.com/eaborden</a></li>
         <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
       </ul>
     </div>
-    <div class="col-lg-2 col-sm-1 col-0 bg-primary">
     </div>
-    
+  </div>   
+  </div>
 </body>
 
 </html>
