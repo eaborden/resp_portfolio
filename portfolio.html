@@ -1,64 +1,163 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
 <head>
-
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.79.0">
   <title>Portfolio</title>
 
-  <!-- Add Bootstrap CDN Here -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" type="text/css" href="file:///C:/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+
+  <script type="text/JavaScript" src="file:///C:/bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
+
+  <!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
 </head>
 
 <body>
-  <!--Nav Bar start-->
-  <div class = "container">
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-      <a class="navbar-brand" href="#">
-        <img src="image/elsie.jpg" width="30" height="30" alt="logo">
-        Arroll Borden
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-5" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-list-5">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">About</a>
-          </li>
-        </ul>
+
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <a class="navbar-brand" href="#">
+          <img src="image/elsie.jpg" width="30" height="30" alt="logo">
+          Arroll Borden
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-5"
+          aria-label="Toggle navigation" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-list-5">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="py-1 text-center container">
+      <div class="row py-sm-1">
+
+        <div class="col-sm-10 col-md-10 mx-auto">
+          <!-- <h1 class="fw-light">Album example</h1> -->
+          <p class="lead text-bold">Sample of my Work</p>
+          <p>
+          </p>
+        </div>
       </div>
-    </nav>
-    </div>
-  <!--Nav Bar End-->
-  <!-- Creates the Overall Grid -->
-    <div class="container px-lg-5">
-    <!-- Row 1 -->
-    <div class="row">
-      <div class="col-lg-10 border bg-light">
-        <h1>Portfolio</h1>
-      </div>
-    </div>
-    <!-- Row 2 -->
-    <div class="row">
-        <div class="col-lg-5 py-2 px-lg 5 border bg-light"><img src="http://placehold.it/350x350" alt="Placeholder" class="rounded mx-auto d-block"></div>
-        <div class="col-lg-5 py-2 px-lg 5 border bg-light"><img src="http://placehold.it/350x350" alt="Placeholder" class="rounded mx-auto d-block"></div>
-    </div>
-    <!-- Row 3 -->        
-    <div class="row">
-        <div class="col-lg-5 py-2 px-lg 5 border bg-light"><img src="http://placehold.it/350x350" alt="Placeholder" class="rounded mx-auto d-block"></div>
-        <div class="col-lg-5 py-2 px-lg 5 border bg-light"><img src="http://placehold.it/350x350" alt="Placeholder" class="rounded mx-auto d-block"></div>
-    </div>
-    <!-- Row 4 -->        
-    <div class="row">
-        <div class="col-lg-5 py-2 px-lg 5 border bg-light"><img src="http://placehold.it/350x350" alt="Placeholder" class="rounded mx-auto d-block"></div>
-    </div>
-    </div>
-</body>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="image/entryscreenNT.PNG" class="img-fluid" alt="BurgerApplication">
+              <rect width="100%" height="100%" fill="#55595c" />
+
+              <div class="card-body">
+                <p class="card-text">This application uses an express backend and save and retrieve note data from a
+                  JSON file.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/eaborden/note-taker" class="btn btn-danger" target="_blank"
+                      rel="noopener noreferrer">GitHub Repo</a>
+                    <a href="https://desolate-hollows-94481.herokuapp.com/notes/" class="btn btn-primary"
+                      target="_blank" rel="noopener noreferrer">Note Taker App</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="image/screenshotBurger.png" class="img-fluid" alt="BurgerApplication">
+              <rect width="100%" height="100%" fill="#55595c" />
+
+              <div class="card-body">
+                <p class="card-text">Application with a mySQL backend. Deployed to heroku.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/eaborden/burger/" class="btn btn-danger" target="_blank"
+                      rel="noopener noreferrer">GitHub Repo</a>
+                    <a href="https://eddies-burgers.herokuapp.com/" class="btn btn-primary" target="_blank"
+                      rel="noopener noreferrer">Burger App</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="image/SS_Scheduler.png" class="img-fluid" alt="Scheduler">
+              <rect width="100%" height="100%" fill="#55595c" />
+
+              <div class="card-body">
+                <p class="card-text">AApplication that allows for a person to enter items into a calendar. The calendar highlights hours past, present and future.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/eaborden/workdaysched/" class="btn btn-danger" target="_blank"
+                      rel="noopener noreferrer">GitHub Repo</a>
+                    <a href="https://eaborden.github.io/workdaysched/" class="btn btn-primary" target="_blank"
+                      rel="noopener noreferrer">Scheduler App</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
